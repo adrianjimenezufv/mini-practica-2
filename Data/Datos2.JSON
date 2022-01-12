@@ -1,0 +1,20 @@
+{
+  "Usuarios": [
+    {
+      "id_usuario": "1",
+      "nombre": "Paca Flores",
+      "departamento": "RRHH",
+      "telefono": "675977632",
+      "mail": "pacA.flores@gmail.com",
+      "ubicacion": "Planta 20"
+    },
+    {
+      "id_usuario": "2",
+      "nombre_us": "Paco Flores",
+      "departamento": "RRHH",
+      "telefono": "678977632",
+      "mail": "pacA.flores@gmail.com",
+      "ubicacion": "Planta 20"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Equipo [
+    <!ELEMENT Equipo (Usuarios)*>
+    <!ELEMENT Usuarios ( Usuario )*>
+    <!ELEMENT Usuario ( nombre_us | departamento | mail | telefono | ubicacion )*>
+    <!ELEMENT nombre_us (#PCDATA)>
+    <!ELEMENT departamento (#PCDATA)>
+    <!ELEMENT mail (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT ubicacion (#PCDATA)>
+    <!ATTLIST Usuario id_usuario CDATA #REQUIRED>
+]>
+
+
+<Empresa>
+    <Usuarios>
+
+        <Usuario id_usuario="1">
+            <nombre_us>Paca Flores</nombre_us>
+            <departamento>RRHH</departamento>
+            <telefono>675977632</telefono>
+            <mail>pacA.flores@gmail.com</mail>
+            <ubicacion>Planta 20</ubicacion>
+
+        </Usuario>
+
+        <Usuario id_usuario="2">
+            <nombre_us>Paco Flores</nombre_us>
+            <departamento>RRHH</departamento>
+            <telefono>678977632</telefono>
+            <mail>pacA.flores@gmail.com</mail>
+            <ubicacion>Planta 20</ubicacion>
+
+        </Usuario>
+
+    </Usuarios>
+
+</Empresa>

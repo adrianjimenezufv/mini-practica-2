@@ -1,0 +1,36 @@
+{
+  "Usuarios": [
+    {
+      "id_usuario": 0,
+      "nombre": "Paco Flores",
+      "departamento": "Comercial",
+      "telefono": 675987632,
+      "mail": "paco.flores@gmail.com",
+      "ubicación": "Planta 12"
+    },
+    {
+      "id_usuario": 1,
+      "nombre": "Paca Flores",
+      "departamento": "RRHH",
+      "telefono": 675977632,
+      "mail": "pacA.flores@gmail.com",
+      "ubicación": "Planta 20"
+    },
+    {
+      "id_usuario": 5,
+      "nombre": "patata",
+      "departamento": "3",
+      "telefono": 3,
+      "mail": "3",
+      "ubicación": "3"
+    },
+    {
+      "id_usuario": 3,
+      "nombre": "Adri",
+      "departamento": "Mi casa",
+      "telefono": 23122313313131,
+      "mail": "ecwcverver@vvrverv.vom",
+      "ubicación": "UFV"
+    }
+  ]
+}
